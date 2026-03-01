@@ -14,7 +14,7 @@
         <ul>
             <li><a href="">Main</a></li>
             <li><a href="">Rates</a></li>
-            <li><a href="">Сreate account</a></li>
+            <li><a href="">Create account</a></li>
         </ul>
     </nav>
 </header>
@@ -94,37 +94,39 @@
             <option value="">Finland</option>
             <option value="">USA</option>
         </select>
-        <label for="">
-            <input type="radio" name="stack" checked>
+        <label for="frontend">
+            <input id="frontend" type="radio" name="stack" checked>
             Frontend
         </label>
-        <label for="">
-            <input type="radio" name="stack">
+        <label for="backend">
+            <input id="backend" type="radio" name="stack">
             Backend
         </label>
         <fieldset>
             <legend>
                 Favorite Technologies
             </legend>
-            <label for="">
-                <input type="checkbox" name="html" checked>
+            <label for="html">
+                <input id="html" type="checkbox" name="html" checked>
                 HTML
             </label>
-            <label for="">
-                <input type="checkbox" name="css" checked>
+            <label for="css">
+                <input id="css" type="checkbox" name="css" checked>
                 CSS
             </label>
-            <label for="">
-                <input type="checkbox" name="react">
+            <label for="react">
+                <input id="react" type="checkbox" name="react">
                 React
             </label>
-            <label for="">
-                <input type="checkbox" name="sc">
+            <label for="sc">
+                <input id="sc" type="checkbox" name="sc">
                 Styled components
             </label>
         </fieldset>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Something else about you...">
+        <label for="about">
+            <textarea name="text" id="about" cols="30" rows="10" placeholder="Something else about you...">
         </textarea>
+        </label>
         <input type="submit">
     </form>
 </section>
