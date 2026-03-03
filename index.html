@@ -83,17 +83,19 @@
         <li>Free forever for core features</li>
         <li>14-day trial of premium features</li>
     </ul>
-    <form action="">
+    <form>
         <input type="text" placeholder="Full name">
         <input type="email" placeholder="Email">
         <input type="password" placeholder="Password">
         <input type="date">
-        <select name="" id="">
-            <option value="" selected disabled>Country</option>
-            <option value="">Russia</option>
-            <option value="">Finland</option>
-            <option value="">USA</option>
-        </select>
+        <label for="select">
+            <select name="select-options" id="select">
+                <option value="" selected disabled>Country</option>
+                <option value="">Russia</option>
+                <option value="">Finland</option>
+                <option value="">USA</option>
+            </select>
+        </label>
         <label for="frontend">
             <input id="frontend" type="radio" name="stack" checked>
             Frontend
@@ -123,8 +125,9 @@
                 Styled components
             </label>
         </fieldset>
-        <label for="about">
-            <textarea name="text" id="about" cols="30" rows="10" placeholder="Something else about you...">
+        <label for="textarea-something-else-about-you">
+            <textarea name="textarea" id="textarea-something-else-about-you" cols="30" rows="10"
+                      placeholder="Something else about you...">
         </textarea>
         </label>
         <input type="submit">
@@ -135,7 +138,7 @@
     <small>
         Copyright © 2023. All rights reserved.
     </small>
-<!--    <span>Copyright © 2023. All rights reserved.</span>-->
+    <!--    <span>Copyright © 2023. All rights reserved.</span>-->
 </footer>
 </body>
 </html>
