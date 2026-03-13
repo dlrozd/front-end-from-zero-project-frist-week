@@ -212,6 +212,12 @@ footer {
     padding: 20px 0;
 }
 
+small {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
+}
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
